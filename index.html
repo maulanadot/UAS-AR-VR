@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>A-Frame Simple Link Component - Basic</title>
+    <meta name="description" content="Basic example for Simple Link component."></meta>
+    <script src="https://aframe.io/releases/0.8.2/aframe.min.js"></script>
+    <script src="assets/dist/aframe-simple-link-component.js"></script>
+    <script src="https://unpkg.com/aframe-environment-component@1.0.0/dist/aframe-environment-component.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/c-frame/aframe-extras@7.2.0/dist/aframe-extras.min.js"></script>
+  </head>
+  <body>
+    <a-scene environment="preset:japan" cursor="rayOrigin: mouse">
+      <a-assets>
+        <img id="linkImage3" src="./assets/fire.jpeg">
+        <img id="forest1" src="./assets/forest/textures/nature_bark_pear_01_l_0001_baseColor.jpeg">
+        <img id="kunti" src="./assets/kunti/textures/auto_29mat_diffuse.png">
+        <img id="kunti1" src="./assets/kunti/textures/auto_2mat_diffuse.jpeg">
+        <img id="kunti2" src="./assets/kunti/textures/M_83a794e1_cef2_4637_8c73_c9ed3b9dc7f7mat_diffuse.jpeg">
+        <img id="kunti3" src="./assets/kunti/textures/Voldemort_handsmat_diffuse.jpeg">
+        <img id="cort" src="./assets/cort/textures/25_cortana_0.3_0_0_diffuse.png">
+        <img id="cort1" src="./assets/cort/textures/25_eyes_0.3_0_0_diffuse.png">
+        <img id="cort2" src="./assets/cort/textures/25_eyes_0.3_0_0_normal.png">
+        <img id="cort3" src="./assets/cort/textures/25_face_0.3_0_0_diffuse.png">
+        <img id="cort4" src="./assets/cort/textures/25_face_0.3_0_0_normal.png">
+        <img id="cort5" src="./assets/cort/textures/25_hair_0.3_0_0_diffuse.png">
+        <img id="cort6" src="./assets/cort/textures/25_hair_0.3_0_0_emissive.png">
+        <img id="cort7" src="./assets/cort/textures/25_hair_0.3_0_0_normal.png">
+      </a-assets>
+     
+      </a-entity>
+      <a-entity gltf-model="./assets/cort/scene.gltf" animation-mixer scale="1 1 1" position="11.09154 0.03991 -5.09417" rotation="-0.05 90 0">
+        <a-entity
+        material="src: #cort"
+        gltf-part="body">
+        </a-entity>
+        <a-entity
+        material="src: #cort1"
+        gltf-part="body1">
+        </a-entity>
+        <a-entity
+        material="src: #cort2"
+        gltf-part="body2">
+        </a-entity>
+        <a-entity
+        material="src: #cort3"
+        gltf-part="body3">
+        </a-entity>
+        <a-entity
+        material="src: #cort4"
+        gltf-part="body4">
+        </a-entity>
+        <a-entity
+        material="src: #cort5"
+        gltf-part="body5">
+        </a-entity>
+        <a-entity
+        material="src: #cort6"
+        gltf-part="body6">
+        </a-entity>
+        <a-entity
+        material="src: #cort7"
+        gltf-part="body7">
+        </a-entity>
+      </a-entity>
+
+
+       
+      <a-entity gltf-model="./assets/kunti/scene.gltf" animation-mixer scale="100 100 100" position="11.09154 0.03991 -3.42058" rotation="-0.05 -90 0">
+        <a-entity
+        material="src: #kunti"
+        gltf-part="body">
+        </a-entity>
+        <a-entity
+        material="src: #kunti1"
+        gltf-part="body1">
+        </a-entity>
+        <a-entity
+        material="src: #kunti2"
+        gltf-part="body2">
+        </a-entity>
+        <a-entity
+        material="src: #kunti3"
+        gltf-part="body3">
+        </a-entity>
+      </a-entity>
+
+      <a-entity gltf-model="./assets/forest/scene.gltf" scale="1 1 1"position="3.67378 -0.202 -12.82015">
+        <a-entity
+        material="src: #forest1"
+        gltf-part="body">
+    </a-entity>
+      </a-entity>
+
+      <a-entity position="4 1.5 -5" simple-link="href: Ar.html; title: Setan Asli; image: #linkImage3; radius:1.2; font: monoid"></a-entity>
+    </a-scene>
+
+  </body>
+</html>

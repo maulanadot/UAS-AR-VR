@@ -1,0 +1,11 @@
+Model Information:
+* title:	Characters>Halo 4>Cortana
+* source:	https://sketchfab.com/3d-models/charactershalo-4cortana-ae7434fc1c3c4707b3a6474095d0c4be
+* author:	jameslucino117 (https://sketchfab.com/jameslucino117)
+
+Model License:
+* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+* requirements:	Author must be credited. No commercial use.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Characters>Halo 4>Cortana" (https://sketchfab.com/3d-models/charactershalo-4cortana-ae7434fc1c3c4707b3a6474095d0c4be) by jameslucino117 (https://sketchfab.com/jameslucino117) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)

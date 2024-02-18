@@ -1,0 +1,11 @@
+Model Information:
+* title:	Pocong
+* source:	https://sketchfab.com/3d-models/pocong-55d43a3e173a457da377ae75356fd10e
+* author:	Tirto.Suwondo (https://sketchfab.com/Tirto.Suwondo)
+
+Model License:
+* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+* requirements:	Author must be credited. No commercial use.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Pocong" (https://sketchfab.com/3d-models/pocong-55d43a3e173a457da377ae75356fd10e) by Tirto.Suwondo (https://sketchfab.com/Tirto.Suwondo) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
